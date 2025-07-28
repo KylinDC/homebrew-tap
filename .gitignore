@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Homebrew specific
+*.bottle.tar.gz
+*.bottle.json
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Ruby
+*.gem
+.bundle/
+vendor/
+
+# Claude Code
+.claude
