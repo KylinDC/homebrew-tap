@@ -1,15 +1,15 @@
-# Kylindc Kylindc
+# Kylindc Tap
 
 ## How do I install these formulae?
 
-`brew install kylindc/kylindc/<formula>`
+`brew install kylindc/tap/<formula>`
 
-Or `brew tap kylindc/kylindc` and then `brew install <formula>`.
+Or `brew tap kylindc/tap` and then `brew install <formula>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
-tap "kylindc/kylindc"
+tap "kylindc/tap"
 brew "<formula>"
 ```
 
