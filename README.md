@@ -1,5 +1,11 @@
 # Kylindc Tap
 
+A Homebrew tap with custom formulae and casks.
+
+## Formulae
+
+- **bbdown** - Command-line Bilibili video downloader
+
 ## How do I install these formulae?
 
 `brew install kylindc/tap/<formula>`
