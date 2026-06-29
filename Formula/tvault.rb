@@ -1,7 +1,7 @@
 class Tvault < Formula
   desc "Touch ID-secured environment variable vault for macOS"
   homepage "https://github.com/KylinDC/TouchVault"
-  version "1.1.0"
+  version "0.0.2"
   license "MIT"
 
   on_macos do
