@@ -11,18 +11,7 @@ class Tvault < Formula
 
   def install
     bin.install "tvault"
-  end
-
-  def caveats
-    <<~EOS
-      To enable shell completions, add the following to your shell config:
-
-        zsh:  tvault --generate-completion-script zsh > ~/.zsh/completions/_tvault
-        fish: tvault --generate-completion-script fish > ~/.config/fish/completions/tvault.fish
-
-      If macOS blocks the binary, remove the quarantine flag:
-        xattr -d com.apple.quarantine #{HOMEBREW_PREFIX}/bin/tvault
-    EOS
+    generate_completions_from_executable(bin/"tvault", "--generate-completion-script")
   end
 
   test do
