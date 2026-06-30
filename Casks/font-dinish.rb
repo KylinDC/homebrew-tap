@@ -1,5 +1,5 @@
 cask "font-dinish" do
-  version "4.006"
+  version "4.007"
 
   url "https://github.com/playbeing/dinish/releases/download/v#{version}/DINish-otf.zip"
   name "DINish"
